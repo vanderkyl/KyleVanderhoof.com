@@ -1,0 +1,264 @@
+#navBar {
+
+}
+
+@media screen and (max-width: 768px) {
+  #navWrapper { display: none !important; }
+  #navLogo { display: block !important; }
+}
+
+#mainNavWrapper {
+  width: 100%;
+}
+
+#mobileNavWrapper {
+
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  background: rgba(0,0,0,.97);
+
+}
+
+.nav-header {
+  margin-left: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+#navLogo {
+  display: none;
+  position: absolute;
+  top: 8px;
+}
+
+.navLogo {
+  margin-top: 2px;
+}
+
+.navButton {
+  padding-top: 40px;
+}
+
+.navButton a {
+  color: #cacaca !important;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.navButton a:hover {
+  color: white !important;
+  text-decoration: none;
+  border-radius: 20%;
+  border: 1px solid #cacaca;
+  transition: all 1s ease;
+}
+
+.closeNavButton {
+  position: absolute;
+  top: 0px;
+  font-size: 35px;
+  left: 20px;
+  color: white;
+  z-index: 9999;
+}
+
+
+.navbar>.container .navbar-brand:hover {
+  background: #444;
+
+}
+
+.navbar-inverse .navbar-nav>li>a, .navbar-default .navbar-brand {
+  color: white;
+}
+
+img.navbar-brand {
+  padding: 10px;
+  padding-left: 18px;
+  float: none;
+}
+
+.navButtons:hover {
+  background: #444;
+  text-decoration: none;
+}
+
+.navbar-fixed-top {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#navContainer, #searchNavContainer {
+  min-height: 50px;
+}
+
+#searchNavContainer {
+  display: none;
+  margin-right: 5px;
+}
+
+.search {
+  margin-top: 8px;
+  height: 40px;
+  float: right;
+}
+
+#largeSearchInput {
+  padding: 6px;
+  width: 400px;
+}
+
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+  position: fixed; /* <-- Look here */
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.sideNavToggle {
+  position: relative;
+  float: left;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+a.nav-link {
+  border-radius: 50px;
+  background-color: #444;
+}
+
+a.nav-link:hover {
+  background-color: #232323 !important;
+}
+
+.sideNav {
+  display: none;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background-color: #222;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 13px;
+  margin-top: 51px;
+}
+
+.sideNav a {
+  padding: 8px 8px 8px 14px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #b3b3b3;
+  display: block;
+  min-width: 200px;
+  transition: 0.3s;
+}
+
+.sideNav a span {
+  margin-left: 10px;
+  color: #b3b3b3;
+  font-size: 14px;
+  font-style: normal;
+  min-width: 200px;
+}
+
+.sideNav a:hover, .sideNav a:hover span {
+  color: #f1f1f1;
+}
+
+.sideNav span {
+  color: grey;
+  font-size: 11px;
+  margin-left: 20px;
+  font-style: italic;
+  min-width: 200px;
+}
+
+
+.sideNav .closeSideNav {
+  position: absolute;
+  top: 0;
+  left: 170px;
+  font-size: 36px;
+  z-index: 11111;
+}
+
+.sideNavButton, .closeSideNav {
+  float: left;
+  font-size: 20px;
+  padding-top: 11px;
+  cursor: pointer;
+  filter: invert(100%);
+}
+
+.sideNavHeader .profileImage {
+  width: 40px;
+  float: left;
+  height: 40px;
+  margin: 0px 0px 5px -10px;
+  min-width: 40px;
+}
+
+#userLink {
+  margin-top: 8px;
+  margin-left: 40px;
+}
+
+#bandLinks , #folderLinks, #fileLinks {
+  font-size: 15px;
+}
+
+.sideNavFooter {
+  border-top: 1px solid #444;
+  padding-top: 5px;
+  margin-top: 10px;
+}
+
+#sideNavBrand {
+  position: absolute;
+  top: 15px;
+  left: -12px;
+}
+
+#showSearch, #closeSearch {
+  filter: invert(100%);
+  cursor: pointer;
+  font-size: 20px;
+  padding-top: 10px;
+  margin-right: 20px;
+}
+
+.sideNavHeader {
+
+  border-bottom: 1px #444 solid;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+#recentLinks {
+  border-top: 1px #444 solid;
+  padding-top: 10px;
+}
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #cccccc;
+  border-radius: 1px;
+}
